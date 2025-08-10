@@ -1,6 +1,6 @@
 import streamlit as st
 from parser import parse_resume
-from feedback_agent import get_feedback
+from Agent_feedback import get_feedback
 
 st.title("📄 Expert Resume Analyzer Agent")
 st.caption("Analyze, Improve, and Stand Out")
